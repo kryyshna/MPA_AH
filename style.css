@@ -1,0 +1,122 @@
+ul#menu_horizontal {
+	display:inline-block;
+	width : 40%; 
+	height : 70px;
+	margin : auto auto auto 4%;
+	padding : 0;
+	background-image: linear-gradient(#002B58, #74D0F1);
+	border : 1px solid black;
+	list-style-type : none; 
+	border-radius: 8px;
+}
+ 
+ul#menu_horizontal li {
+	padding : 0 0.5em;  
+	text-align:center;
+	width : 15%;
+	line-height : 70px;
+}
+ 
+ul#menu_horizontal li.bouton_gauche {
+	float : left;
+	border-right : 1px solid black;
+}
+
+ul#menu_horizontal li.bouton_droite {
+	float : right;
+	border-left : 1px dashed black;
+}
+ 
+ul#menu_horizontal a {
+	color : white;
+	text-decoration : none;
+	padding : 0 0.5em; 
+	font :  1em "Trebuchet MS";
+}
+ 
+ul#menu_horizontal li:hover {
+	border-radius: 8px;
+	font-weight: bold;
+	background-color:#002B58;
+}
+ 
+
+
+/*iles.html*/
+
+@font-face{	/*autre police à la place de Trend*/
+	font-family:"Hotel";
+	src: url("font/hotel_de_paris.ttf"); /*marche pas -_-*/
+	
+}
+
+h1{
+	font-family:Hotel;
+	text-align:center;
+	padding-bottom:2%;
+}
+
+
+
+.article{	
+	margin-left:25%;
+	margin-right:25%;	
+	
+}
+
+.article img{
+	width:300px;
+	float:left;
+	margin-bottom:10%;
+	vertical-align:text-top;
+	
+}
+
+
+.description{
+	width:300px;
+	max-width:350px;
+	min-width:100px;
+	text-align:justify;
+	float:right;
+	margin-bottom:5%;
+	height:10px;
+	font-size:smaller;
+	font-family :Helvetica light ;
+}
+
+.description h3{
+	color:#A9A9A9;
+	font-size:large;
+}
+
+.container{	
+	width:300px;
+	display:block;
+}
+
+
+.description input{	
+	width:150px;
+	margin-top:3%;
+	height:32px;
+	
+}
+
+#btn{
+	background-color: #FFFFFF;
+	
+}
+
+input:hover {
+	background-color:#696969;
+	color:#FFFFFF;
+}
+
+.logo{
+	width: 120px;
+}
+.nomlogo{
+	width: 350px;
+}
+/*fin de iles.html*/
